@@ -1,6 +1,6 @@
 $(function() {
 	
-	$( "#searchInput" ).keyup(function() {
+	$( "#searchInput" ).keyup(function( event) {
 		//Log if ENTER key is hit
 		if(event.keyCode == 13){
 			renderLog($(this).val());
