@@ -10,11 +10,16 @@ Källa: http://librishelp.libris.kb.se/help/xsearch_swe.jsp?open=tech
 
 Kör
 * Klona projektet
-* Öppna index.html i en webbläsare (Webbläsare som stöds: Google Chrome Version 43)
+* Öppna index.html en webbläsare (se intruktioner nedan)
 
-Sök bok genom att anger författarens efternamn
-* Skriv in efternamnet på en författare, t ex Rowling. För en mer specificerad sökning ange även förnamn efter ett kommatecken t ex. Rowling, J.
-* Listan med böcker visas enligt följande: efternamn, förnamn, år, titel
+Sök efter en bok i Firefox
+* Skriv in en titel eller efternamn eller förnamn på författaren
+* Listan med böcker visas nedanför inputfältet, max 20 resultat visas.
 * Bläddra i listan med hjälp av piltangenterna och välj genom att trycka på ENTER.
 * Ditt val loggas med tid och datum under sökrutan.
 
+Sök efter en bok i Chrome eller Internet Explorer ( sökning enbart på författare )
+* Skriv in ett efternamn på en författare. För mer specifik sökning, fyll på med förnamn ex: Rowling, J. K.
+* Listan med böcker visas nedanför inputfältet, max 20 resultat visas.
+* Bläddra i listan med hjälp av piltangenterna och välj genom att trycka på ENTER
+* Ditt val loggas med tid och datum under sökrutan.
