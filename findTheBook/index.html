@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book finder</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="page-header ">
+					<h1>Hitta boken <small>sök på författaren</small></h1>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<input type="text" id="searchInput" name="writers" list="writerlist" class="center-block form-control" placeholder="Efternamn, Förnamn" />
+				<datalist id="writerlist"></datalist>
+			</div>
+		</div>
+		
+		<div class="row">
+			<section>
+				<div class="col-md-8 col-md-offset-2">
+					<ul id="searchLog" class="center-block">
+					</ul>
+				</div>
+			</section>
+		</div>
+		
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/search.js"></script>
+	<footer><p><a href="mailto:frida.hoas@sqy.se">frida.hoas@sqy.se</a></p></footer>
+</body>
+
+</html>
